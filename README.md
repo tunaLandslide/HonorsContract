@@ -1,6 +1,6 @@
 # HonorsContract
 
-The file mchain.py is a library to create markov chains and use them to generate sentences.
+The file mchain.py is a library to create markov chains and use them to generate sentences. the included .txt file "extext.txt" is an example text file made up of the introduciton from the Wikipedia article for books.
 
 The functions included in this file are: (1) portText, (2) getMat, (3) genSent
 
