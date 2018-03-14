@@ -18,6 +18,11 @@ def getMat(ref):
         for m in range(len(voc)):
             if ref[n] == voc[m]:
                 M[voc.index(ref[n + 1]),m] += 1
+
+    for n in range(len(voc)):
+        if sum(M[:,n]) == 0:
+            M[:,n] += 1
+
     return voc,M
 
 def genSent(voc,M,N = 1):
